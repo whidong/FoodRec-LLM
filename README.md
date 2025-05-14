@@ -16,8 +16,8 @@
 - **Frontend**: Flutter
 - **Backend**: Firebase
 - **모델 사용**:
-  - BLIP (Image-to-Text)
-  - GPT (Text-to-Text)
+  - GPT 4 (Image-to-Text)
+  - GPT 3.5 turbo (Text-to-Text)
 
 ## 실행 방법
 1. `flutter pub get` 명령어로 의존성 설치
