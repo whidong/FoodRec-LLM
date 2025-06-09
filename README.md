@@ -1,7 +1,13 @@
 ## LLM을 활용한 사용자 맞춤 음식 추천 시스템 :이미지 기반 음식명 추출 및 대화형 추천을 중심으로
 ### Development of a Personalized Food Recommendation System Using LLM :Focusing on Image-Based Food Name Extraction and Conversational Recommendations
 ---
-project period (2024.10 ~ 2024.12)
+📦**Deploy:** [PersonalRecipeRecommender-A4](https://whidong.github.io/PersonalRecipeRecommender/)
+
+---
+
+프로젝트 기간 (2024.10 ~ 2024.12)
+
+
 ## 프로젝트 개요
 이 프로젝트는 LLM(대규모 언어 모델)과 멀티모달 이미지 분석 기술을 활용하여 사용자의 선호에 맞춘 음식 추천 시스템을 구현하는 것을 목표로 합니다. 음식 이미지에서 텍스트를 추출하고 대화형 추천을 통해 개인화된 요리를 추천합니다.
 
@@ -49,8 +55,29 @@ project period (2024.10 ~ 2024.12)
 2. `flutter run`으로 앱 실행
 3. Firebase 프로젝트 설정 필요
 
-
 ## 결과 예시
-(화면 캡처나 결과물을 추가)
+
+1. **사용자 현재 선호도 및 최근 맛있게 먹은 음식 사진**  
+![사용자 현재 선호도 및 최근 맛있게 먹은 음식 사진](https://github.com/user-attachments/assets/d7a0c9d2-6e31-493c-b880-1dcf643c593b)  
+*사용자 선호 음식 및 취향을 선택하고 최근 맛있게 먹은 음식 사진을 업로드하는 화면*
 
 ---
+
+2. **추천받은 요리 목록**  
+![추천받은 요리 목록](https://github.com/user-attachments/assets/a7289f45-a509-42b0-90fa-b855814090e8)  
+*사용자의 선호도와 최근 맛있게 먹은 음식을 고려하여 5가지 음식을 추천해주는 화면*
+
+---
+
+3. **사용자가 선택한 요리의 재료 및 레시피**  
+![사용자가 선택한 요리의 재료 및 레시피](https://github.com/user-attachments/assets/ba82cce1-e337-4d02-b5e2-1a73e69110e3)  
+*선택한 요리에 대한 정보, 재료, 조리 방법을 보여주는 화면*
+
+---
+
+4. **사용자 추천 정보 Database 저장**  
+![사용자 추천 정보 Database 저장](https://github.com/user-attachments/assets/ec4fa3aa-678f-47b2-b65d-727d9fd5cace)  
+*사용자가 추천 받을때 사용한 최근 맛있게 먹은 음식 정보와 추천받은 요리 목록 그리고 선택한 요리에 대한 정보 및 조리방법을 database에 저장합니다.*
+
+---
+
